@@ -276,7 +276,7 @@
 				DEVELOPMENT_TEAM = 229XF58NF5;
 				INFOPLIST_FILE = "小球重力感应/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.--2-Test-7-Last";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -288,7 +288,7 @@
 				DEVELOPMENT_TEAM = 229XF58NF5;
 				INFOPLIST_FILE = "小球重力感应/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.------";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.--2-Test-7-Last";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -312,6 +312,7 @@
 				C43256F21F09028B0064188D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

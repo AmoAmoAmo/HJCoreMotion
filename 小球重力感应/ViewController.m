@@ -38,10 +38,11 @@
     // 开始更新，后台线程开始运行。
     [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMAccelerometerData *accelerometerData, NSError *error)
      {
+         // 获取系统在X、Y、Z轴上的加速度数据
          CMAccelerometerData *newestAccel = motionManager.accelerometerData;
          double accelerationX = newestAccel.acceleration.x;
          double accelerationY = newestAccel.acceleration.y;
-         
+//         double accelerationZ = newestAccel.acceleration.z;
          
          double ra = atan2(-accelerationY, accelerationX); // 返回值的单位为弧度，atan2(x,y)返回的是点(x,y)与x轴的夹角
          double degree = ra * 180 / M_PI;
@@ -49,7 +50,6 @@
          
          self.arrowImageView.transform = CGAffineTransformMakeRotation(ra + M_PI_2);
 
-         
      }];
     
     
